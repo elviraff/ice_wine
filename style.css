@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    background-color: #222222;
+    padding: 19px 0;
+}
+
+.container{
+    max-width: 1160px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header_box{
+    display: flex;
+    justify-content: space-between;
+}
+.header_logo{
+    margin-right: 41px;
+}
+.header_item:not(:last-child){
+    margin-right: 33px;
+}
+.advertise{
+    height: 764px;
+    background-color: #F1E4E6;
+}
+.advertise_box{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url('../lesson1/img/man.png');
+    background-repeat: no-repeat;
+    background-position: -212px bottom;
+}
+.text_box{
+    max-width: 377px;
+    padding-left: 20px;
+    border-left: 12px solid #F16D7F;
+}
+.decore{
+    color:#F16D7F;
+}
+.text_1{
+    text-align: left;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+
+color: #222222;
+}
+.category_wrap{
+    margin-top:65px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.category_card{
+    width: 100%;
+    height: 260px;
+    background-color: rgba(33, 22, 22, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category_card:not(:last-child){
+    width: 360px;
+    margin: 0 0 30px 0;
+}
+.card_1{
+    background-image:url(img/card_1.png);
+}
+.card_2{
+    background-image:url(img/card_2.png);
+}
+.card_3{
+    background-image:url(img/card_3.png);
+}
+.card_4{
+   background-color: rgba(33, 22, 22, 0.7);
+   background-image:url(img/big_card.png);
+}
+.text_card_small{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.text_card_big{
+    font-family: Lato;
+    font-size: 24px;
+    line-height: 28,8px;
+    text-align: center;
+    color: #F16D7F;
+}
+
+.text_medium{
+    font-family: Lato;
+    margin-top:96px;
+    font-size: 30px;
+    line-height: 36px;
+/* identical to box height */
+    color: #222222;
+    text-align: center;
+}
+.text_small{
+    font-family: Lato;
+    margin-top:6px;
+    font-size: 14px;
+    line-height: 17px;
+/* identical to box height */
+    color: #9F9F9F;
+    text-align: center;
+}
+.fetured_cards{
+    margin-top:48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fetured_card{
+    width: 360px;
+    height: 581px;
+    background-color: #F8F8F8;
+    margin-bottom:30px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.card_back{
+    background-color: #F7E4E2;
+    height: 420px;
+    width: 360px;
+}
+.card_img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../lesson1/img/fetured_card_2.png');
+}
+.h_card{
+    font-family: Lato;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #000000;
+}
+.p_card{
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+.price_card{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+}
+.button{
+    margin-top:48.5px;
+    margin-bottom: 95.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_button{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 38.5px;
+    border: 1px solid #F26376; 
+ }
+ 
+.advantage{
+    Height: 341px;
+    background-color: #222224;
+ }
+ .text_advantage_h{
+    font-family: Lato;
+    font-size: 19.96px;
+    line-height: 24px;
+    /* identical to box height */  
+    color: #FBFBFB;
+ }
+ .text_advantage{
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+ }
+ .advantage_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 103px ;
+ }
+ .footer_box{
+     width: 360px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-direction: column;
+     margin-top:10px;
+}
+ .subscribe{
+    Height:448px;
+    background-color: #rgba(244, 244, 244, 0.7);
+ }
+ .links{
+    Height:79px;
+    background-color: #222224;
+ }
