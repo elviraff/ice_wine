@@ -32,7 +32,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-image: url('../lesson1/img/man.png');
+    background-image: url('../ice_wine/img/man.png');
     background-repeat: no-repeat;
     background-position: -212px bottom;
 }
@@ -72,17 +72,17 @@ color: #222222;
     margin: 0 0 30px 0;
 }
 .card_1{
-    background-image:url(img/card_1.png);
+    background-image:url('../ice_wine/img/card_1.png');
 }
 .card_2{
-    background-image:url(img/card_2.png);
+    background-image:url('../ice_wine/img/card_2.png');
 }
 .card_3{
-    background-image:url(img/card_3.png);
+    background-image:url('../ice_wine/img/card_3.png');
 }
 .card_4{
    background-color: rgba(33, 22, 22, 0.7);
-   background-image:url(img/big_card.png);
+   background-image:url('../ice_wine/img/big_card.png');
 }
 .text_card_small{
     font-family: Lato;
@@ -142,7 +142,7 @@ color: #222222;
 .card_img{
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../lesson1/img/fetured_card_2.png');
+    background-image: url('../ice_wine/img/fetured_card_2.png');
 }
 .h_card{
     font-family: Lato;
