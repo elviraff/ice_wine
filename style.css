@@ -72,17 +72,16 @@ color: #222222;
     margin: 0 0 30px 0;
 }
 .card_1{
-    background-image:url('../ice_wine/img/card_1.png');
+    background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)), url('../ice_wine/img/card_1.png');
 }
 .card_2{
-    background-image:url('../ice_wine/img/card_2.png');
+    background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('../ice_wine/img/card_2.png');
 }
 .card_3{
-    background-image:url('../ice_wine/img/card_3.png');
+    background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('../ice_wine/img/card_3.png');
 }
 .card_4{
-   background-color: rgba(33, 22, 22, 0.7);
-   background-image:url('../ice_wine/img/big_card.png');
+   background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('../ice_wine/img/big_card.png');
 }
 .text_card_small{
     font-family: Lato;
@@ -130,9 +129,11 @@ color: #222222;
     margin-bottom:30px;
     display: flex;
     align-items:flex-start;
-    justify-content: space-between;
+    justify-content:start;
     flex-direction: column;
-
+}
+.fetured_card__foto{
+    margin-bottom: 25px;
 }
 .card_back{
     background-color: #F7E4E2;
@@ -142,14 +143,15 @@ color: #222222;
 .card_img{
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../ice_wine/img/fetured_card_2.png');
-}
+    background-image:url('../ice_wine/img/fetured_card_2.png');
+   }
 .h_card{
     font-family: Lato;
     font-size: 13px;
     line-height: 16px;
     /* identical to box height */
     color: #000000;
+    margin-bottom:12.65px;
 }
 .p_card{
     font-family: Lato;
@@ -157,6 +159,7 @@ color: #222222;
     font-size: 14px;
     line-height: 17px;
     color: #5D5D5D;
+    margin-bottom:18px;
 }
 .price_card{
     font-family: Lato;
@@ -169,7 +172,6 @@ color: #222222;
     margin-bottom: 95.5px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .text_button{
     font-family: Lato;
@@ -183,7 +185,6 @@ color: #222222;
  }
  
 .advantage{
-    Height: 341px;
     background-color: #222224;
  }
  .text_advantage_h{
@@ -192,6 +193,7 @@ color: #222222;
     line-height: 24px;
     /* identical to box height */  
     color: #FBFBFB;
+    margin-bottom: 16px;
  }
  .text_advantage{
     font-family: Lato;
@@ -201,25 +203,199 @@ color: #222222;
     text-align: center;
     color: #FBFBFB;
  }
- .advantage_box{
+ .advantage__box{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 103px ;
+    padding-bottom: 103px ;
  }
- .footer_box{
+ .advantage__box__block{
      width: 360px;
      display: flex;
      align-items: center;
      justify-content: space-between;
      flex-direction: column;
      margin-top:10px;
+     margin-right: 30px;
 }
- .subscribe{
+.subscription{
     Height:448px;
-    background-color: #FFFFFF;
  }
+.subscription__box{
+    background-image:linear-gradient(rgba(244, 244, 244, 0.7),rgba(244, 244, 244, 0.7)), url('../ice_wine/img/subcsr_background.jpg');
+    height: 448px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0;
+}
+.subscription__box__autor{
+    flex-grow:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    margin-left: 230px;
+    padding: 0;
+}
+.subscription__box__autor__img{
+    width: 96px;
+    height: 96px;
+}
+.subscription__box__autor__text{
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+    width: 360px;
+}
+.subscription__box__autor__text-italic{
+    font-style: italic;
+}
+
+.img_subscr{
+    margin-bottom: 25px;
+}
+ .subscription__box__send{
+    border: 1px solid #000;
+    flex-grow:1;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 230px;
+    padding: 0;
+}
+ .subscription__box__send__text{
+     text-align: center;
+     border: 1px solid rgb(252, 42, 42);
+}
+ .subscription__box__send__text--big{
+    font-size: 24px;
+    line-height: 40px;
+ }
+ .subscription__box__send__text--small{
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #222224;
+ }
+ form{
+     margin-top: 32px;
+     display: flex;
+ }
+ .email{
+     padding: 7px 25px;
+     border: none;
+     background: #E1E1E1;
+     border-radius:50px 0 0 50px;
+ }
+ .submit{
+    border: none;
+    background: #F16D7F;
+    padding: 0 20px;
+    border-radius: 0 50px 50px 0;
+ }
+ 
  .links{
-    Height:79px;
     background-color: #222224;
  }
+ .link__box{
+     padding:30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .link__box__p{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+ }
+ .link__box__img{
+     background-color: #fff;
+     width: 16px;
+     height: 16px;
+     padding: 8px;
+ }
+ .catalog{
+    background-color: #F8F3F4;
+ }
+.catalog__box{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 60px 0;
+ }
+ .catalog__text-left{
+    font-family: Lato;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+ }
+ .catalog__text-right{
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;  
+    color: #636363;
+    text-decoration: none;
+ }
+ .catalog__text-right:hover{
+    color: #F16D7F;
+ }
+ .filters{
+     margin-top:39px;
+     display: flex;
+     margin-bottom: 64px; 
+ }
+ details {
+    box-shadow:#F26376;
+  }
+  ::-webkit-details-marker {display: none;}
+
+  .filters__left{
+      width: 360px;
+      padding-left: 17px;
+  }
+  summary{
+      display: block;
+      outline:none;
+  }
+  .filter__inside{
+    padding-left: 11px;
+    border-left: 5px solid #F16D7F;
+  }
+  .filter-text{
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .filter-text:hover{
+    color: #EF5B70;
+  }
+
+ .list{
+      list-style-type: none;
+  }
+  .list-text{
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+  }
+  .list-text:hover{
+    color: #EF5B70;
+  }
+  .filters__central{
+      width: 360px;
+      display: flex;
+      padding-left: 20px;
+      justify-content: space-between;
+  }
+ 
