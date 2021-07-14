@@ -296,6 +296,7 @@ color: #222222;
      border-radius:50px 0 0 50px;
  }
  .submit{
+     cursor: pointer;
     border: none;
     background: #F16D7F;
     padding: 0 20px;
@@ -317,11 +318,28 @@ color: #222222;
     line-height: 19px;
     color: #FBFBFB;
  }
+ .social{
+     display: flex;
+     
+ }
  .link__box__img{
+    margin-right: 10px;
      background-color: #fff;
      width: 16px;
      height: 16px;
-     padding: 8px;
+    text-align: center;
+    padding: 8px;
+    color: black
+ }
+ .link__box__img:hover{
+    background-color:#F16D7F;
+    color:white;
+ 
+ }
+ .link__box__img:hover .svg-hover{
+    fill: white;
+ }
+ 
  }
  .catalog{
     background-color: #F8F3F4;
