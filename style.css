@@ -367,53 +367,83 @@ color: #222222;
     color: #F16D7F;
  }
  .filters{
-     margin-top:39px;
-     display: flex;
-     margin-bottom: 64px; 
+    margin-top:39px;
+    display: flex;
+    margin-bottom: 64px; 
  }
- details {
-    box-shadow:#F26376;
-  }
-  ::-webkit-details-marker {display: none;}
+details {
+   box-shadow:#F26376;
+ }
+ ::-webkit-details-marker {display: none;}
 
-  .filters__left{
-      width: 360px;
-      padding-left: 17px;
+ .filter__left{
+     width: 360px;
+     padding-left: 17px;
+     position: absolute;
+ }
+ .filter__left[open] {
+    padding-left: 10px;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
   }
-  summary{
-      display: block;
-      outline:none;
+  .filter__left[open]>summary {
+    color: plum;
+    outline: none;
+    border: none;
   }
-  .filter__inside{
-    padding-left: 11px;
-    border-left: 5px solid #F16D7F;
+  .filter__content{
+      position: relative
   }
-  .filter-text{
-    font-family: Lato;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-  }
-  .filter-text:hover{
-    color: #EF5B70;
-  }
+ summary{
+     display: block;
+     outline:none;
+ }
+ .filter__inside{
+   padding-left: 11px;
+   border-left: 5px solid #F16D7F;
+ }
+ .filter-text{
+   font-family: Lato;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 17px;
+ }
+ .filter-text:hover{
+   color: #EF5B70;
+ }
 
- .list{
-      list-style-type: none;
+.list{
+     list-style-type: none;
+ }
+ .list-text{
+   font-family: Lato;
+   font-size: 14px;
+   line-height: 17px;
+   color: #6F6E6E;
+ }
+ .list-text:hover{
+   color: #EF5B70;
+ }
+ .filters__central{
+     width: 360px;
+     display: flex;
+     padding-left: 20px;
+     justify-content: space-between;
+     margin-left: 380px;
+ }
+ .filter__size{
+     position: absolute;
+     margin-left: 180px;
+ }
+ .filter__size__content{
+     position: relative;
+ }
+ .filter__size[open] {
+    padding-left: 10px;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
   }
-  .list-text{
-    font-family: Lato;
-    font-size: 14px;
-    line-height: 17px;
-    color: #6F6E6E;
+  .filter__size[open]>summary {
+    color: plum;
+    outline: none;
+    border: none;
   }
-  .list-text:hover{
-    color: #EF5B70;
-  }
-  .filters__central{
-      width: 360px;
-      display: flex;
-      padding-left: 20px;
-      justify-content: space-between;
-  }
- 
+  
