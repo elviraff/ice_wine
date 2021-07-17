@@ -643,9 +643,11 @@ summary {
       -ms-flex-pack: center;
           justify-content: center;
   height: 777px;
+  z-index: -1;
 }
 
 .detail-info {
+  z-index: 0;
   margin: -40px auto 0;
   height: 601px;
   background-color: #fff;
