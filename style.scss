@@ -447,14 +447,13 @@ details {
   
 .main-card{
     background: #F7F7F7;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 777px;
-    z-index: -1;
+    border: 1px solid #000;
     }    
+.main-card__img{
+    height: 50px;
+}
 .detail-info{
-    z-index:0;
     margin: -40px auto 0;
     height: 601px;
     background-color: #fff ;
