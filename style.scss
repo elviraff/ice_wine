@@ -230,7 +230,7 @@ color: #222222;
     height: 448px;
     width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items: center;
     padding: 0;
 }
@@ -240,7 +240,6 @@ color: #222222;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #000;
     margin-left: 230px;
     padding: 0;
 }
@@ -253,7 +252,6 @@ color: #222222;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-    color: #222224;
     width: 360px;
 }
 .subscription__box__autor__text-italic{
@@ -264,18 +262,17 @@ color: #222222;
     margin-bottom: 25px;
 }
  .subscription__box__send{
-    border: 1px solid #000;
     flex-grow:1;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     margin-right: 230px;
     padding: 0;
+    text-align: center;
 }
  .subscription__box__send__text{
-     text-align: center;
-     border: 1px solid rgb(252, 42, 42);
+     
 }
  .subscription__box__send__text--big{
     font-size: 24px;
@@ -466,4 +463,57 @@ details {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    &__text_catalog-info {
+        font-family: Lato;
+        font-style: light;
+        font-size: 14px;
+        height: 17px;
+        color: #F16D7F;
+    }
+    &__text_line_red{
+        width: 63px;
+        height: 3px;
+        background-color: #EF5B70;
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
+    &__text_head {
+        font-family: Lato;
+        font-style: light;
+        font-size: 18px;
+        height: 22px;
+        color:#4D4D4D;
+        margin-bottom: 49px;
+    }
+    &__text_p {
+        font-family: Lato;
+        font-style: light;
+        font-size: 14px;
+        height: 17px;
+        color:#5E5E5E;
+        width: 555px;
+        margin-bottom: 27px;
+    }
+    &__text_price{
+        font-family: Lato;
+        font-style: light;
+        font-size: 24px;
+        height: 29px;
+        color:#EF5B70;
+        margin-bottom: 32px;
+    }
+    &__text_line_grey{
+        width: 642x;
+        height: 5px;
+        color: black;
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+}
+.filter-product{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    margin-bottom: 48px;
 }
