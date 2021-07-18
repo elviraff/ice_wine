@@ -438,7 +438,7 @@ form {
 }
 
 .link__box {
-  padding: 30px 0;
+  padding: 30px 0 30px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -467,7 +467,6 @@ form {
   margin-right: 10px;
   background-color: #fff;
   width: 16px;
-  height: 16px;
   text-align: center;
   padding: 8px;
   color: black;
@@ -626,21 +625,16 @@ summary {
 
 .main-card {
   background: #F7F7F7;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   height: 777px;
-  z-index: -1;
+  display: flex;
+  justify-content: center;
+}
+
+.main-card__img {
+  height: calc(100% - 40px);
 }
 
 .detail-info {
-  z-index: 0;
   margin: -40px auto 0;
   height: 601px;
   background-color: #fff;
