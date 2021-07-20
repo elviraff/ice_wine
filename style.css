@@ -438,7 +438,7 @@ form {
 }
 
 .link__box {
-  padding: 30px 0 30px 0;
+  padding: 30px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -467,6 +467,7 @@ form {
   margin-right: 10px;
   background-color: #fff;
   width: 16px;
+  height: 16px;
   text-align: center;
   padding: 8px;
   color: black;
@@ -626,12 +627,11 @@ summary {
 .main-card {
   background: #F7F7F7;
   height: 777px;
-  display: flex;
-  justify-content: center;
+  border: 1px solid #000;
 }
 
 .main-card__img {
-  height: calc(100% - 40px);
+  height: 50px;
 }
 
 .detail-info {
