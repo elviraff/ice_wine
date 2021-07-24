@@ -47,7 +47,7 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background-image: url("../ice_wine/img/man.png");
+  background-image: url("img/man.png");
   background-repeat: no-repeat;
   background-position: -212px bottom;
 }
@@ -104,23 +104,23 @@
 }
 
 .card_1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url("../ice_wine/img/card_1.png");
-  background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("../ice_wine/img/card_1.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url("img/card_1.png");
+  background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("img/card_1.png");
 }
 
 .card_2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url("../ice_wine/img/card_2.png");
-  background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("../ice_wine/img/card_2.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url("img/card_2.png");
+  background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("img/card_2.png");
 }
 
 .card_3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url("../ice_wine/img/card_3.png");
-  background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("../ice_wine/img/card_3.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url("img/card_3.png");
+  background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("img/card_3.png");
 }
 
 .card_4 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url("../ice_wine/img/big_card.png");
-  background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("../ice_wine/img/big_card.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url("img/big_card.png");
+  background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("img/big_card.png");
 }
 
 .text_card_small {
@@ -208,7 +208,7 @@
 .card_img {
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../ice_wine/img/fetured_card_2.png");
+  background-image: url("img/fetured_card_2.png");
 }
 
 .h_card {
@@ -318,8 +318,8 @@
 }
 
 .subscription__box {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(244, 244, 244, 0.7)), to(rgba(244, 244, 244, 0.7))), url("../ice_wine/img/subcsr_background.jpg");
-  background-image: linear-gradient(rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)), url("../ice_wine/img/subcsr_background.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(244, 244, 244, 0.7)), to(rgba(244, 244, 244, 0.7))), url("img/subcsr_background.jpg");
+  background-image: linear-gradient(rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)), url("img/subcsr_background.jpg");
   height: 448px;
   width: 100%;
   display: -webkit-box;
@@ -631,7 +631,7 @@ summary {
 }
 
 .main-card__img {
-  height: 50px;
+  height: calc(100%-60px);
 }
 
 .detail-info {

@@ -32,7 +32,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-image: url('../ice_wine/img/man.png');
+    background-image: url('img/man.png');
     background-repeat: no-repeat;
     background-position: -212px bottom;
 }
@@ -72,16 +72,16 @@ color: #222222;
     margin: 0 0 30px 0;
 }
 .card_1{
-    background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)), url('../ice_wine/img/card_1.png');
+    background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)), url('img/card_1.png');
 }
 .card_2{
-    background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('../ice_wine/img/card_2.png');
+    background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('img/card_2.png');
 }
 .card_3{
-    background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('../ice_wine/img/card_3.png');
+    background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('img/card_3.png');
 }
 .card_4{
-   background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('../ice_wine/img/big_card.png');
+   background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('img/big_card.png');
 }
 .text_card_small{
     font-family: Lato;
@@ -146,7 +146,7 @@ color: #222222;
 .card_img{
     background-position: center;
     background-repeat: no-repeat;
-    background-image:url('../ice_wine/img/fetured_card_2.png');
+    background-image:url('img/fetured_card_2.png');
    }
 .h_card{
     font-family: Lato;
@@ -226,7 +226,7 @@ color: #222222;
     Height:448px;
  }
 .subscription__box{
-    background-image:linear-gradient(rgba(244, 244, 244, 0.7),rgba(244, 244, 244, 0.7)), url('../ice_wine/img/subcsr_background.jpg');
+    background-image:linear-gradient(rgba(244, 244, 244, 0.7),rgba(244, 244, 244, 0.7)), url('img/subcsr_background.jpg');
     height: 448px;
     width: 100%;
     display: flex;
@@ -451,7 +451,7 @@ details {
     border: 1px solid #000;
     }    
 .main-card__img{
-    height: 50px;
+    height: calc(100%-60px);
 }
 .detail-info{
     margin: -40px auto 0;
