@@ -32,7 +32,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-image: url('../ice_wine/img/man.png');
+    background-image: url('img/man.png');
     background-repeat: no-repeat;
     background-position: -212px bottom;
 }
@@ -72,16 +72,16 @@ color: #222222;
     margin: 0 0 30px 0;
 }
 .card_1{
-    background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)), url('../ice_wine/img/card_1.png');
+    background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)), url('img/card_1.png');
 }
 .card_2{
-    background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('../ice_wine/img/card_2.png');
+    background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('img/card_2.png');
 }
 .card_3{
-    background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('../ice_wine/img/card_3.png');
+    background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('img/card_3.png');
 }
 .card_4{
-   background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('../ice_wine/img/big_card.png');
+   background-image:linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('img/big_card.png');
 }
 .text_card_small{
     font-family: Lato;
@@ -132,7 +132,7 @@ color: #222222;
     justify-content:start;
     flex-direction: column;
     &__product{
-        margin: 12px auto 129px;;
+        margin: 12px auto 129px;
     }
 }
 .fetured_card__foto{
@@ -146,7 +146,7 @@ color: #222222;
 .card_img{
     background-position: center;
     background-repeat: no-repeat;
-    background-image:url('../ice_wine/img/fetured_card_2.png');
+    background-image:url('img/fetured_card_2.png');
    }
 .h_card{
     font-family: Lato;
@@ -154,7 +154,7 @@ color: #222222;
     line-height: 16px;
     /* identical to box height */
     color: #000000;
-    margin-bottom:12.65px;
+    text-decoration: none;
 }
 .p_card{
     font-family: Lato;
@@ -163,6 +163,7 @@ color: #222222;
     line-height: 17px;
     color: #5D5D5D;
     margin-bottom:18px;
+    margin-top:12.65px;
 }
 .price_card{
     font-family: Lato;
@@ -186,8 +187,9 @@ color: #222222;
     padding: 14px 38.5px;
     border: 1px solid #F26376; 
  }
- .button:hover{
-    
+ .text_button:hover{
+    background-color: #F16D7F;
+    color:#fff;
  }
  
 .advantage{
@@ -229,7 +231,9 @@ color: #222222;
     Height:448px;
  }
 .subscription__box{
-    background-image:linear-gradient(rgba(244, 244, 244, 0.7),rgba(244, 244, 244, 0.7)), url('../ice_wine/img/subcsr_background.jpg');
+    background-image:linear-gradient(rgba(244, 244, 244, 0.7),rgba(244, 244, 244, 0.7)), url('img/bg_subscr.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
     height: 448px;
     width: 100%;
     display: flex;
@@ -451,13 +455,15 @@ details {
 .main-card{
     background: #F7F7F7;
     height: 777px;
-    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
     }    
 .main-card__img{
-    height: 50px;
+    height: 90%;
 }
 .detail-info{
     margin: -40px auto 0;
+    padding-top:64px;
     height: 601px;
     background-color: #fff ;
     margin-bottom: 129px;
@@ -506,11 +512,10 @@ details {
         margin-bottom: 32px;
     }
     &__text_line_grey{
-        width: 642x;
+        width: 642px;
         height: 5px;
-        color: black;
-        margin-top: 64px;
-        margin-bottom: 64px;
+        background-color: #EAEAEA;
+        margin-bottom: 64px 0 64px 0;
     }
 }
 .filter-product{
