@@ -86,7 +86,6 @@
 .category_card {
   width: 100%;
   height: 260px;
-  background-color: rgba(33, 22, 22, 0.7);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -197,6 +196,60 @@
 
 .fetured_card__foto {
   margin-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fetured_card__foto-1 {
+  width: 100%;
+  height: 420px;
+  background-image: url("img/fetured_card_1.png");
+}
+
+.fetured_card__foto-1:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url("img/fetured_card_1.png");
+  background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("img/fetured_card_1.png");
+}
+
+.fetured_card__foto-1:hover .button__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 138px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 15px 10px 13px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  opacity: 90%;
+  cursor: pointer;
+}
+
+.buttom__img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.button__text {
+  font-family: Lato;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.button__card {
+  display: none;
 }
 
 .card_back {
@@ -246,22 +299,37 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.text_button {
+.button--decor {
+  background: #ffffff;
+  padding: 14px 38.5px;
+  border-color: #F26376;
+}
+
+.button--text {
   font-family: Lato;
   font-size: 16px;
   line-height: 19px;
-  color: #F26376;
   text-align: center;
   text-decoration: none;
-  padding: 14px 38.5px;
-  border: 1px solid #F26376;
+  color: #F26376;
 }
 
-.text_button:hover {
+.button--decor:hover {
   background-color: #F16D7F;
+  cursor: pointer;
+}
+
+.button--decor:hover .button--text {
   color: #fff;
+}
+
+.button--decor:hover .button--svg {
+  fill: #fff;
 }
 
 .advantage {
@@ -644,7 +712,7 @@ summary {
 }
 
 .main-card__img {
-  height: 90%;
+  height: 94%;
 }
 
 .detail-info {
@@ -715,7 +783,7 @@ summary {
 
 .detail-info__text_line_grey {
   width: 642px;
-  height: 5px;
+  height: 1px;
   background-color: #EAEAEA;
   margin-bottom: 64px 0 64px 0;
 }

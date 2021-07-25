@@ -62,7 +62,6 @@ color: #222222;
 .category_card{
     width: 100%;
     height: 260px;
-    background-color: rgba(33, 22, 22, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,7 +136,45 @@ color: #222222;
 }
 .fetured_card__foto{
     margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.fetured_card__foto-1{
+    width: 100%;
+    height: 420px;
+    background-image: url("img/fetured_card_1.png");
+}
+.fetured_card__foto-1:hover{
+    background-image: linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('img/fetured_card_1.png');
+    .button__card{
+        display:flex;
+        width: 138px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 15px 10px 13px;
+        background-color: transparent;
+        border: 1px solid #fff;
+        opacity: 90%;
+        cursor: pointer;
+    }
+}
+.buttom__img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.button__text{
+    font-family: Lato;  
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.button__card{
+    display: none;
+
+}
+
+
 .card_back{
     background-color: #F7E4E2;
     height: 420px;
@@ -176,20 +213,30 @@ color: #222222;
     margin-bottom: 95.5px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    &--decor{
+        background: #ffffff;
+        padding: 14px 38.5px;
+        border-color: #F26376;
+    }
+    &--text{
+        font-family: Lato;
+        font-size: 16px;
+        line-height: 19px;     
+        text-align: center;
+        text-decoration: none;
+        color: #F26376;
+    }
 }
-.text_button{
-    font-family: Lato;
-    font-size: 16px;
-    line-height: 19px;
-    color: #F26376;
-    text-align: center;
-    text-decoration: none;
-    padding: 14px 38.5px;
-    border: 1px solid #F26376; 
- }
- .text_button:hover{
+ .button--decor:hover{
     background-color: #F16D7F;
-    color:#fff;
+    cursor: pointer;
+    .button--text{
+        color: #fff;
+    }
+    .button--svg{
+        fill:#fff;
+    }
  }
  
 .advantage{
@@ -459,7 +506,7 @@ details {
     justify-content: center;
     }    
 .main-card__img{
-    height: 90%;
+    height: 94%;
 }
 .detail-info{
     margin: -40px auto 0;
@@ -513,7 +560,7 @@ details {
     }
     &__text_line_grey{
         width: 642px;
-        height: 5px;
+        height: 1px;
         background-color: #EAEAEA;
         margin-bottom: 64px 0 64px 0;
     }
