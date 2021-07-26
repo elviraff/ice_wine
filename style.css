@@ -237,7 +237,7 @@
 }
 
 .buttom__img {
-  width: 25px;
+  width: auto;
   height: 25px;
   margin-right: 10px;
 }
@@ -307,7 +307,7 @@
 .button--decor {
   background: #ffffff;
   padding: 14px 38.5px;
-  border-color: #F26376;
+  border: 1px solid #F26376;
 }
 
 .button--text {
@@ -429,6 +429,7 @@
           align-items: center;
   margin-left: 230px;
   padding: 0;
+  margin-right: 320px;
 }
 
 .subscription__box__autor__img {
@@ -702,6 +703,7 @@ summary {
 
 .main-card {
   background: #F7F7F7;
+  border: 1px solid #EAEAEA;
   height: 777px;
   display: -webkit-box;
   display: -ms-flexbox;
