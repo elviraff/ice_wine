@@ -1,0 +1,138 @@
+.products{
+    margin-top:48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.products__card{
+    width: 360px;
+    height: 581px;
+    background-color: #F8F8F8;
+    margin-bottom:30px;
+    display: flex;
+    align-items:flex-start;
+    justify-content:start;
+    flex-direction: column;
+}
+
+@mixin card_position() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 420px;
+}
+@mixin button__card(){
+    display:flex;
+    width: 138px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 10px 13px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    opacity: 90%;
+    cursor: pointer;
+}
+.products__card__foto-1{
+    @include card_position();
+    background-image: url("img/fetured_card_1.png");
+}
+.products__card__foto-1:hover{
+    background-image: linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('img/fetured_card_1.png');
+    .button__card{
+        @include button__card();
+    }
+}
+.products__card__foto-2{
+    @include card_position();
+    background-image: url("img/fetured_card_2.png");
+    background-color: #F7E4E2;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.products__card__foto-2:hover{
+    background-image: linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('img/fetured_card_2.png');
+    .button__card{
+        @include button__card();
+    }
+}
+
+.products__card__foto-3{
+    @include card_position();
+    background-image: url("img/fetured_card_3.png");
+}
+.products__card__foto-3:hover{
+    background-image: linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('img/fetured_card_3.png');
+    .button__card{
+        @include button__card();
+    }
+}
+.products__card__foto-4{
+    @include card_position();
+    background-image: url("img/fetured_card_4.png");
+}
+.products__card__foto-4:hover{
+    background-image: linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('img/fetured_card_4.png');
+    .button__card{
+        @include button__card();
+    }
+}
+.products__card__foto-5{
+    @include card_position();
+    background-image: url("img/fetured_card_5.png");
+}
+.products__card__foto-5:hover{
+    background-image: linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('img/fetured_card_5.png');
+    .button__card{
+        @include button__card();
+    }
+}
+.products__card__foto-6{
+    @include card_position();
+    background-image: url("img/fetured_card_6.png");
+}
+.products__card__foto-6:hover{
+    background-image: linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('img/fetured_card_6.png');
+    .button__card{
+        @include button__card();
+    }
+}
+
+.products__card__text a {
+    font-family: Lato;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+.products__card__text p {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    margin-bottom:18px;
+    margin-top:12.65px;
+}
+
+.products__card__text--price{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+}
+
+.buttom__img{
+    width: auto;
+    height: 25px;
+    margin-right: 10px;
+}
+.button__text{
+    font-family: Lato;  
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.button__card{
+    display: none;
+}

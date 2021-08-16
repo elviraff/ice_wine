@@ -1,0 +1,12 @@
+@mixin test_1($color:red, $text:12px, $bgc:black, $height:50px){
+    color:$color;
+    font-size: $text;
+    background-color:$bgc;
+    height: $height;
+}
+.test{
+    @include test_1(green,30px,yellow,500px)
+}
+.test_test{
+    @include test_1;
+}
