@@ -115,99 +115,12 @@ color: #222222;
     color: #9F9F9F;
     text-align: center;
 }
-.fetured_cards{
-    margin-top:48px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.fetured_card{
-    width: 360px;
-    height: 581px;
-    background-color: #F8F8F8;
-    margin-bottom:30px;
-    display: flex;
-    align-items:flex-start;
-    justify-content:start;
-    flex-direction: column;
-    &__product{
-        margin: 12px auto 129px;
-    }
-}
-.fetured_card__foto{
-    margin-bottom: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.fetured_card__foto-1{
-    width: 100%;
-    height: 420px;
-    background-image: url("img/fetured_card_1.png");
-}
-.fetured_card__foto-1:hover{
-    background-image: linear-gradient(rgba(33, 22, 22, 0.7),rgba(33, 22, 22, 0.7)),url('img/fetured_card_1.png');
-    .button__card{
-        display:flex;
-        width: 138px;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 15px 10px 13px;
-        background-color: transparent;
-        border: 1px solid #fff;
-        opacity: 90%;
-        cursor: pointer;
-    }
-}
-.buttom__img{
-    width: 25px;
-    height: 25px;
-    margin-right: 10px;
-}
-.button__text{
-    font-family: Lato;  
-    font-size: 14px;
-    color: #FFFFFF;
-}
-.button__card{
-    display: none;
-
-}
 
 
-.card_back{
-    background-color: #F7E4E2;
-    height: 420px;
-    width: 360px;
-}
-.card_img{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image:url('img/fetured_card_2.png');
-   }
-.h_card{
-    font-family: Lato;
-    font-size: 13px;
-    line-height: 16px;
-    /* identical to box height */
-    color: #000000;
-    text-decoration: none;
-}
-.p_card{
-    font-family: Lato;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    color: #5D5D5D;
-    margin-bottom:18px;
-    margin-top:12.65px;
-}
-.price_card{
-    font-family: Lato;
-    font-size: 16px;
-    line-height: 19px;
-    color: #F16D7F;
-}
+
+
+
+
 .button{
     margin-top:48.5px;
     margin-bottom: 95.5px;
@@ -217,7 +130,7 @@ color: #222222;
     &--decor{
         background: #ffffff;
         padding: 14px 38.5px;
-        border-color: #F26376;
+        border: 1px solid #F26376;
     }
     &--text{
         font-family: Lato;
@@ -296,6 +209,7 @@ color: #222222;
     align-items: center;
     margin-left: 230px;
     padding: 0;
+    margin-right: 320px;
 }
 .subscription__box__autor__img{
     width: 96px;
@@ -501,6 +415,7 @@ details {
   
 .main-card{
     background: #F7F7F7;
+    border: 1px solid #EAEAEA;
     height: 777px;
     display: flex;
     justify-content: center;
@@ -570,4 +485,47 @@ details {
     justify-content: space-between;
     border: 1px solid #000;
     margin-bottom: 48px;
+}
+.cart-box{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top:96px;
+    padding: 0;
+    &__item { 
+        display: flex;
+        justify-content: space-between;
+        height: 306px;
+        &:nth-child(odd){
+            margin: 0 128px 40px 0;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.21);
+            }
+        &__foto{
+        
+            }
+        &__text{
+            
+            }
+        &__input{
+            display: flex;
+            flex-direction: column;       
+            &--style-1{
+                margin-top: 20px ;
+                width: 360px;
+                height: 45px;
+                padding: 12px 0 15px 16px;
+            }
+            &--style-2{
+
+                margin-top:24px;
+                width: 100px;
+                height: 34px;
+                }
+        }
+        &__sum {
+            width: 30px;
+            height: 24px;
+            background-color: #eb7181;
+            border: 1px solid #000;
+            }
+    }
 }
